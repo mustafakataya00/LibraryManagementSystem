@@ -17,11 +17,11 @@ Setup Instructions
 
 
   **Introduction**
-  
+  --
 This project implements a RESTful API for managing a library system. It allows operations related to library members, books, authors, and their interactions. The API is built using Spring Boot framework in Java.
 
   **Features**
-  
+  --
     Library Member Management
     
       Create a Library Member
@@ -132,24 +132,24 @@ Deletes an author by ID.
 
 ---------------------------------
 **OverDue System Penalty**
-
+--
 Each day after the borrow date plus 7 days will be compensated with 5$ on the borrower , in my code i have made some tests so i have added on my current date like 2 days and made the required return date is now for testing purposes
 
 ---------------------------------
 **Security**
-
+--
 **Authentication and Authorization**: Spring Security is integrated to handle authentication and authorization.
 
 ---------------------------------
 **Error Handling**
-
+--
 Proper error responses with appropriate HTTP status codes (e.g., 404 for not found, 400 for bad request) are implemented for each endpoint.
 
 Custom exceptions (NotFoundException, AlreadyExistsException, etc.) provide detailed error messages.
 
 ---------------------------------
 **Technologies Used**
-
+--
   **Spring Boot:** Framework for creating RESTful APIs in Java.
   
   **Hibernate:** ORM (Object-Relational Mapping) tool for interacting with the database.
