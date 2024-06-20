@@ -22,9 +22,9 @@ This project implements a RESTful API for managing a library system. It allows o
 
   **Features**
   
-    **Library Member Management**
+    Library Member Management
     
-      **Create a Library Member**
+      Create a Library Member
       
 
 **Endpoint**: POST /MemberAPI
