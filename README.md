@@ -12,9 +12,9 @@ Setup Instructions
   Run the application using Maven or your preferred IDE.
   
  ---- java level 18
- --
+ 
  ---- SDK : open-jdk 22
----
+
 
   **Introduction**
   
