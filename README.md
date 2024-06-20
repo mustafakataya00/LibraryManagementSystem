@@ -140,6 +140,10 @@ Each day after the borrow date plus 7 days will be compensated with 5$ on the bo
 --
 **Authentication and Authorization**: Spring Security is integrated to handle authentication and authorization.
 
+for testing purpose : 
+username : user
+password : pass
+
 ---------------------------------
 **Error Handling**
 --
