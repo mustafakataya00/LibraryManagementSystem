@@ -1,6 +1,6 @@
             ################################## **Mostafa Kataya - 2024** ##################################
-![Alt Text](![image](https://github.com/mustafakataya00/LibraryManagementSystem/assets/93375540/9f6c4107-eb9b-491c-a200-3c2a458baf96)
-)
+
+
 **Library Management System API**
   **Introduction**
 This project implements a RESTful API for managing a library system. It allows operations related to library members, books, authors, and their interactions. The API is built using Spring Boot framework in Java.
