@@ -115,6 +115,9 @@ Delete Author
 **Endpoint**: DELETE /AuthorAPI/{id}
 Deletes an author by ID.
 
+**OverDue System Penalty**
+Each day after the borrow date plus 7 days will be compensated with 5$ on the borrower , in my code i have made some tests so i have added on my current date like 2 days and made the required return date is now for testing purposes
+
 **Security**
 
 **Authentication and Authorization**: Spring Security is integrated to handle authentication and authorization.
