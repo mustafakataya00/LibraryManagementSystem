@@ -131,6 +131,12 @@ Delete Author
 Deletes an author by ID.
 
 ---------------------------------
+
+**Use of DTO**
+
+For preventing infinite loops
+
+
 **OverDue System Penalty**
 --
 Each day after the borrow date plus 7 days will be compensated with 5$ on the borrower , in my code i have made some tests so i have added on my current date like 2 days and made the required return date is now for testing purposes
