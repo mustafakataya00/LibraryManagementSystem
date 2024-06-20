@@ -2,8 +2,15 @@
 
 
 **Library Management System API**
-
+---------------------------------
 ![image](https://github.com/mustafakataya00/LibraryManagementSystem/assets/93375540/299775dc-5b29-4049-8528-5dc7821c99e2)
+
+**Setup Instructions**
+  Clone the repository.
+  Run the application using Maven or your preferred IDE.
+  
+ ---- java level 18
+ ---- SDK : open-jdk 22
 
 
   **Introduction**
@@ -114,27 +121,23 @@ Delete Author
 
 **Endpoint**: DELETE /AuthorAPI/{id}
 Deletes an author by ID.
-
+---------------------------------
 **OverDue System Penalty**
 Each day after the borrow date plus 7 days will be compensated with 5$ on the borrower , in my code i have made some tests so i have added on my current date like 2 days and made the required return date is now for testing purposes
-
+---------------------------------
 **Security**
-
 **Authentication and Authorization**: Spring Security is integrated to handle authentication and authorization.
-
+---------------------------------
 **Error Handling**
 Proper error responses with appropriate HTTP status codes (e.g., 404 for not found, 400 for bad request) are implemented for each endpoint.
 Custom exceptions (NotFoundException, AlreadyExistsException, etc.) provide detailed error messages.
-
+---------------------------------
 **Technologies Used**
-
   **Spring Boot:** Framework for creating RESTful APIs in Java.
   **Hibernate:** ORM (Object-Relational Mapping) tool for interacting with the database.
   **H2 DATABASE:**
+
   
-**Setup Instructions**
-  Clone the repository.
-  Run the application using Maven or your preferred IDE.
 
 
               ################################## **Mostafa Kataya - 2024** ##################################
